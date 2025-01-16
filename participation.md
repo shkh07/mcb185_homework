@@ -35,6 +35,9 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended Lilith's Friday Office Hours.
 - Week 2
 	+ Attended class Tuesday
+	+ I met Victor on Thursday
+	+ Attended class Thursday
+	+ Attended Professor's OH Wednesday
 - Week 3
 - Week 4
 - Week 5
