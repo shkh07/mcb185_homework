@@ -1,0 +1,1 @@
+gunzip -c ~/Code/MCB185/data/dictionary.gz| grep "...." | grep "r" | grep -E "^[oczniar]+$" | wc -l
