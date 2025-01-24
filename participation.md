@@ -33,12 +33,21 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Introduced myself to Lauren N
 	+ Introduced myself to Celine
 	+ Attended Lilith's Friday Office Hours.
+	+ Total 5 points
 - Week 2
 	+ Attended class Tuesday
 	+ I met Victor on Thursday
 	+ Attended class Thursday
 	+ Attended Professor's OH Wednesday
+	+ Attended Lilith's Thursday Office Hours
+	+ Total 5 points
 - Week 3
+	+ Attended class Tuesday
+	+ Attended class Thursday
+	+ Finished and passed Unit 0 assessment
+	+ Attended Lilith's Tuesday Office Hours
+	+ Introduced myself to Jimmy
+	
 - Week 4
 - Week 5
 - Week 6
