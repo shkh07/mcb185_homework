@@ -5,7 +5,7 @@ stab = 0
 die = 0
 rev = 0
 for i in range(trials):
-	succSesses = 0
+	successes = 0
 	fails = 0
 	revived = False
 	
