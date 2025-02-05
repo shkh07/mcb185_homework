@@ -1,34 +1,30 @@
 import random
 
-def simulate_death_save():
-    failures = 0
-    successes = 0
-    
-    while failures < 3 and successes < 3:
-        roll = random.randint(1, 20)
-        
-        if roll == 1:
-            failures += 2  # Critical failure
-        elif roll == 20:
-            return "Revived"  # Immediate revival
-        elif roll < 10:
-            failures += 1
-        else:
-            successes += 1
-            
-        if failures >= 3:
-            return "Died"
-        if successes >= 3:
-            return "Stable"
-
-def estimate_probabilities(trials=100000):
-    outcomes = {"Died": 0, "Stable": 0, "Revived": 0}
-    for _ in range(trials):
-        outcome = simulate_death_save()
-        outcomes[outcome] += 1
-    for key in outcomes:
-        outcomes[key] /= trials
-    return outcomes
-
-probabilities = estimate_probabilities()
-print(probabilities)
+trials = 1000
+stab = 0
+die = 0
+rev = 0
+for i in range(trials):
+	succSesses = 0
+	fails = 0
+	revived = False
+	
+	while successes < 3 and fails < 3 and revived == False:
+		roll = random.randint(1,20)
+		
+		if roll == 20:
+			revived = True
+		elif roll >= 10:
+			successes += 1
+		elif roll == 1: # natural 1
+			fails += 2
+		else: # roll failed but not a 1
+			fails += 1
+	if revived:				rev += 1
+	elif successes >= 3: 	stab += 1
+	else: 					die += 1
+	
+print(successes, fails, revived)
+print('revived:', rev, 'stabilized:', stab, 'died:', die)
+print('revived:', rev / trials, 'stabilized:', stab / trials, 'died:', die / trials)
+print('total good cases:', (rev / trials) + (stab / trials))
