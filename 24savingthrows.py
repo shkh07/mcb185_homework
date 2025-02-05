@@ -1,26 +1,26 @@
 import random
 
-def roll_d20():
-	return random.randint(1, 20)
-	
-def saving_throw(dc, advantage=False, disadvantage=False):
-	rolls = [roll_d20(), roll_d20()]
-	if advantage:
-		roll= max(rolls)
-	elif disadvantage:
-		roll = min(rolls)
-	else:
-		roll = rolls[0]
-	print(f"Rolls: {rolls}, Chosen Roll: {roll}, DC: {dc}")
-	
-	if roll >= dc:
-		print('saving throw succesful!')
-		return True
-	else:
-		print('saving throw failed :(')
-		return False
+def saving_throws(trials): # function for simulating throws
+	dc5 = 0 # successes for dc5
+	dc10 = 0
+	dc15 = 0
+	failures = 0 # count rolls below dc 5
 
-print(saving_throw(10, advantage=True))
-print(saving_throw(15, disadvantage=True))
-print(saving_throw(5))
+	for i in range(trials):
+		roll = random.randint(1, 20)
+		
+		# gonna look for the highest dc first
+		if roll >= 5:
+			dc5 += 1
+		elif roll >= 10:
+			dc10 += 1
+		elif roll >= 15:
+			dc15 +1
+		else:
+			failures += 1
+	print(dc5 / trials)
+	print(dc10 / trials)
+	print(dc15 / trials)
+	print(failures / trials)
+print(saving_throws(100000)) # running the program with 100000 trials
 	
