@@ -62,7 +62,7 @@ more than one point per category. There is a maximum of 5 points each week.
 - Week 6
 	+ Attended class Tuesday
 	+ Attended Dr. Korf's Saturday Office Hours
-	+ Finished Unit 6 Assessment
+	+ Finished Unit 2 Assessment
 	+ Introduced myself to Reese
 	+ Hosted a coderie
 - Week 7
@@ -70,7 +70,23 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended Lilith's Office Hours (Wednesday & Thursday)
 	+ Attended class Tuesday
 	+ Attended class Thursday
-	+ I introduced myself to Catrinel
+	+ Introduced myself to Catrinel
 - Week 8
+	+ Finished Unit 3 Assessment
+	+ Attended class Tuesday
+	+ Attended class Thursday
+	+ Attended Lilith's Office Hours
+	+ Introduced myself to Kaila
 - Week 9
+	+ Attended a coderie
+	+ Attended Lilith's Office Hours (Friday)
+	+ Attended class Tuesday
+	+ Did not go to class Thursday because I was sick :/
+	+ Introduced myself to Alex
+
 - Week 10
+	+ Did a practice assessment in class on Tuesday
+	+ Attended class Tuesday
+	+ Attended Lilith's Office Hours (Wednesday)
+	+ Attended a Coderie
+	+ Completed Unit 4 Assessment
