@@ -31,7 +31,8 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 		if aa not in count:	count[aa] = 0
 		count[aa] += 1
 		total += 1
-	for aa in count:
+
+for aa in count:
 		count[aa] /= total
 
 print("AA  Freq	AA  Freq	AA  Freq	AA  Freq")
