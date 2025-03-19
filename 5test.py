@@ -45,6 +45,11 @@ for aa, p in count.items():
 	print(f'{code} {100*p:.2f}', end='\t')
 	if x % 4 == 0: print()
 	x += 1
+	
+	
+'''
+python3 5test.py ../MCB185/data/GCF_000005845.2_ASM584v2_protein.faa.gz
+'''
 
 
 		
