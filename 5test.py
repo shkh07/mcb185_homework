@@ -19,14 +19,10 @@ three_letter_code = {'A': 'Ala', 'R': 'Arg', 'N': 'Asn', 'D': 'Asp', 'C': 'Cys',
 import sys
 import mcb185
 
+total = 0
+count = {}
 
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
-	total = 0
-	amino_acids = ['A', 'R', 'N', 'D', 'C', 'E', 'Q', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 
-	'P', 'S', 'T', 'W', 'Y', 'V']
-	count = {}
-	for aa in amino_acids:
-		count[aa] = 0
 	for aa in seq:
 		if aa not in count:	count[aa] = 0
 		count[aa] += 1
